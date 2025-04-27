@@ -1,32 +1,24 @@
-# VBA-JSON
-hJsonBag
-hJsonBag é uma classe para parse e serialização de JSON escrita em Visual Basic 6.0.
+# hJsonBag
+
+**hJsonBag** é uma classe para **parse** e **serialização** de JSON escrita em **Visual Basic 6.0**.
 
 Ela permite:
+- Ler JSON em objetos VB6.
+- Escrever objetos VB6 em JSON.
+- Suporte a aspas simples e duplas em strings.
+- Suporte a valores nulos (`None`).
+- Métodos úteis como `getPath`, `toArray`, `fromFile`.
 
-Ler JSON em objetos VB6.
+Esta é uma adaptação baseada no trabalho original de **Robert D. Riemersma Jr.**, sob licença Apache 2.0.
 
-Escrever objetos VB6 em JSON.
+## Características
 
-Suporte a aspas simples e duplas em strings.
-
-Suporte a valores nulos (None).
-
-Métodos úteis como getPath, toArray, fromFile.
-
-Esta é uma adaptação baseada no trabalho original de Robert D. Riemersma Jr., sob licença Apache 2.0.
-
-Características
-Parser de JSON com suporte a objetos e arrays.
-
-Serializador de objetos para JSON.
-
-Manuseio flexível de whitespace (espaços em branco).
-
-Compatível com Visual Basic 6.0 e VBA.
-
-Sem dependências externas.
-
+- Parser de JSON com suporte a objetos e arrays.
+- Serializador de objetos para JSON.
+- Manuseio flexível de espaços em branco.
+- Compatível com Visual Basic 6.0 e VBA.
+- Sem dependências externas.
+ 
 ## Exemplo de uso
 ```vb
 Copiar
