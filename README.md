@@ -27,8 +27,8 @@ Compatível com Visual Basic 6.0 e VBA.
 
 Sem dependências externas.
 
-Exemplo de uso
-vb
+## Exemplo de uso
+```vb
 Copiar
 Editar
 Dim json As New hJsonBag
@@ -38,9 +38,10 @@ dados = "{""nome"":""João"",""idade"":30}"
 Call json.parse(dados)
 
 MsgBox json.Item("nome") ' Exibe: João
-Serializar objeto:
+```
+## Serializar objeto:
 
-vb
+```vb
 Copiar
 Editar
 Dim json As New hJsonBag
@@ -48,7 +49,10 @@ Call json.Add("nome", "Maria")
 Call json.Add("idade", 25)
 
 MsgBox json.stringify() ' Exibe: {"nome":"Maria","idade":25}
-Métodos principais
+
+```
+
+## Métodos principais
 
 Método	Descrição
 parse(jsonText As String)	Converte uma string JSON em um objeto manipulável.
@@ -58,13 +62,14 @@ Item(key As String)	Acessa o valor associado a uma chave.
 getPath(path As String)	Acessa valores aninhados através de uma string de caminho.
 toArray()	Converte o objeto JSON para um array VB6.
 fromFile(filePath As String)	Lê JSON diretamente de um arquivo.
-Instalação
+
+## Instalação
 Baixe o arquivo hJsonBag.cls.
 
 Adicione-o ao seu projeto VB6 (Project > Add Class Module > Existing).
 
 Comece a usar!
 
-Licença
+## Licença
 Este projeto é licenciado sob a Licença Apache 2.0.
 Veja o arquivo LICENSE para mais detalhes.
